@@ -62,3 +62,25 @@ nav a{
 nav a:hover{
     color: var(--primary)
 }
+
+.hero-container{
+    display: grid;
+    grid-template-columns: 350px 1fr;
+
+    gap: 80px;
+    align-items: center;
+}
+
+.hero-image{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid var(--primary);
+    box-shadow: 0 0 40px rgba(56, 109, 240, 3);
+}
